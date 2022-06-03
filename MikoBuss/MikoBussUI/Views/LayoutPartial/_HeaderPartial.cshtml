@@ -1,0 +1,88 @@
+﻿
+<header>
+    <!-- header inner -->
+    <div class="header">
+        <div class="header_white_section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header_information">
+                            <ul class="d-flex justify-content-end">
+
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <li>
+                                        <a asp-controller="home" asp-action="index">@User.Identity.Name</a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Account" asp-action="Logout">Logout</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                       Şimdilik Tarih Çalışmıyor :(
+                                    </li>
+                                    <li>
+                                        UserName:mikail2363
+                                    </li>
+                                    <li>
+                                        Password:Qwe123.
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Account" asp-action="Login">Login</a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Account" asp-action="Register">Register</a>
+                                    </li>
+                                }
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                    <div class="full">
+                        <div class="center-desk">
+                            <div class="logo"> <a href="#"><img src="~/images/logomiko_181x58.jpg" alt="#"></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                    <div class="menu-area">
+                        <div class="limit-box">
+                            <nav class="main-menu">
+                                <ul class="menu-area-main">
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        <li class="active"> <a asp-controller="Home" asp-action="Index">Anasayfa</a> </li>
+                                        <li> <a asp-controller="Hakkımızda" asp-action="Index">Hakkımızda</a> </li>
+                                        <li><a asp-controller="Turlar" asp-action="Index">Turlar</a> </li>
+                                        <li><a asp-controller="Iletisim" asp-action="Index">İletisim</a> </li>
+                                        <li><a asp-controller="Admin" asp-action="Index">Admin Control</a> </li>
+                                    }
+                                    else
+                                    {
+                                        <li class="active"> <a asp-controller="Home" asp-action="Index">Anasayfa</a> </li>
+                                        <li> <a asp-controller="Hakkımızda" asp-action="Index">Hakkımızda</a> </li>
+                                        <li><a asp-controller="Turlar" asp-action="Index">Turlar</a> </li>
+                                        <li><a asp-controller="Iletisim" asp-action="Index">İletisim</a> </li>
+                                    }
+
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header inner -->
+</header>
+

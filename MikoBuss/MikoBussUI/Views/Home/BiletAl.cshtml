@@ -1,0 +1,47 @@
+﻿@model SehirGuzergahModel
+<section class="tm-banner">
+    <div class="tm-container-outer tm-banner-bg">
+        <div class="container">
+            <div class="row tm-banner-row tm-banner-row-header">
+                <div class="col-xs-12">
+                    <div class="tm-banner-header">
+                        <h2 class="text-uppercase tm-banner-title">@Model.GuzergahStart <span class="text-warning">></span> @Model.GuzergahEnd</h2>
+                        <h3>Fiyat: <span class="font-weight-bold text-success">@Model.GuzargahFiyat₺</span> </h3>
+                        <a href="javascript:void(0)" class="tm-down-arrow-link"><i class="fa fa-2x fa-angle-down tm-down-arrow"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row tm-banner-row" id="tm-section-search">
+                <form asp-action="BiletAl" asp-controller="Home" method="post" class="tm-search-form tm-section-pad-2">
+                    <div class="form-row tm-search-form-row">
+                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                            <label for="inputCity">Adınız:</label>
+                            <input asp-for="@Model.TicketName" type="text" class="form-control"  placeholder="Adınızı giriniz...">
+                        </div>
+                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                            <label for="inputCity">Soyadınız:</label>
+                            <input asp-for="@Model.TicketSurname" type="text" class="form-control" placeholder="Soyadınızı giriniz...">
+                        </div>
+                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                            <label for="inputCity">Koltuk Numarası</label>
+                            <input asp-for="@Model.TicketSeatNo" type="text" class="form-control"  placeholder="Bilet numaranızı giriniz...">
+                        </div>
+                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                            <label for="inputCity">Mail Adresi</label>
+                            <input asp-for="@Model.TicketMail" type="text" class="form-control" placeholder="Mail adresinizi giriniz...">
+                        </div>
+                        <input type="hidden" value="@Model.GuzergahId" name="GuzergahId" />
+                    </div>
+                    <div class="form-row tm-search-form-row">
+                       
+                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                            <label for="btnSubmit">&nbsp;</label>
+                            <button type="submit" class="btn btn-primary tm-btn tm-btn-search text-uppercase" id="btnSubmit">Bilet al</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="tm-banner-overlay"></div>
+        </div>
+    </div>
+</section>
