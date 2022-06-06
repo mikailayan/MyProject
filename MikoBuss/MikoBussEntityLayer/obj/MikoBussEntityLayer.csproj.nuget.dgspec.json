@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mikail\\Desktop\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj": {}
+    "F:\\github\\MyProject\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mikail\\Desktop\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj": {
+    "F:\\github\\MyProject\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikail\\Desktop\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj",
+        "projectUniqueName": "F:\\github\\MyProject\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj",
         "projectName": "MikoBussEntityLayer",
-        "projectPath": "C:\\Users\\mikail\\Desktop\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj",
+        "projectPath": "F:\\github\\MyProject\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj",
         "packagesPath": "C:\\Users\\mikail\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikail\\Desktop\\MikoBuss\\MikoBussEntityLayer\\obj\\",
+        "outputPath": "F:\\github\\MyProject\\MikoBuss\\MikoBussEntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

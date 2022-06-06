@@ -28,28 +28,24 @@ namespace MikoBussUI.Controllers
         }
         public IActionResult Index()
         {
-
             var sehirGuzergah = new SehirGuzergahModel()
             {
                 Cities = _cityService.GetAll()
             };
             ViewBag.Sehirler = new SelectList(sehirGuzergah.Cities, "CityId", "CiytName");
+            var seats = new List<int>() {1,2,3,4,5};
+            ViewBag.Seat = new SelectList(seats);
             return View(sehirGuzergah);
 
         }
         [HttpPost]
-        public IActionResult Index(string nereden, string nereye)
+        public IActionResult Index(string nereden, string nereye, DateTime tarih, string SeatNo) //??????*
         {
            
             var sehirler = new SehirGuzergahModel()
             {
-                
                 Cities = _cityService.GetAll(),
-                Guzergahs = _guzergahService.GetBusListByRoute(nereden,nereye)
-                
-                
-                
-
+                Guzergahs = _guzergahService.GetBySelectedGuzergahList(nereden,nereye,tarih)
             };
             ViewBag.Sehirler = new SelectList(sehirler.Cities, "CityId", "CiytName");
             return View(sehirler);

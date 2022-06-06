@@ -24,29 +24,38 @@
                                         <select name="nereye" class="form-control" asp-items="@ViewBag.Sehirler">
                                             <option selected disabled>Seç</option>
                                         </select>
-                                    </div>    
-                                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
-                                            <label>Tarih</label>
-                                            <input name="tarih" class="form-control" placeholder="Any" type="date" >
-                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                        <label>KoltukNo</label>
+                                        <select name="SeatNo" class="form-control" asp-items="@ViewBag.Seat">
+                                            <option selected disabled>Seç</option>
+                                        </select>
+                                    </div>
 
-                                   
+
+
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                        <label>Tarih</label>
+                                        <input name="tarih" class="form-control" placeholder="Any" type="date">
+                                    </div>
+
+
                                     @*<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
-                                            <label>Min Price</label>
-                                            <input class="form-control" placeholder="00.0" type="text" name="00.0">
-                                        </div>
-                                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
-                                            <label>Duration</label>
-                                            <input class="form-control" placeholder="Any" type="text" name="Any">
-                                        </div>
-                                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
-                                            <label>Date</label>
-                                            <input class="form-control" placeholder="Any" type="date" name="Any">
-                                        </div>
-                                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
-                                            <label>Max Price</label>
-                                            <input class="form-control" placeholder="00.0" type="text" name="00.0">
-                                        </div>*@
+            <label>Min Price</label>
+            <input class="form-control" placeholder="00.0" type="text" name="00.0">
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+            <label>Duration</label>
+            <input class="form-control" placeholder="Any" type="text" name="Any">
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+            <label>Date</label>
+            <input class="form-control" placeholder="Any" type="date" name="Any">
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+            <label>Max Price</label>
+            <input class="form-control" placeholder="00.0" type="text" name="00.0">
+        </div>*@
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">

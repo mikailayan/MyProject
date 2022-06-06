@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5YxMX8XdVfUoDNzlIZT88F+w308C1X0qqrpLt6VQfmQaxJnk5yEsoJVd+ru0ChbZpttKJyL9Gb4oz7NYlQ8tsQ==",
+  "dgSpecHash": "DqdMhEW/chYu5fjirXamDHcY6O8X+4W6QNVFAOVe1kq6Ej75N9XjYfPzHx6m4+QQGR9dE3oPQ6IUP03frmtfUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mikail\\Desktop\\MikoBuss\\MikoBussBusinessLayer\\MikoBussBusinessLayer.csproj",
+  "projectFilePath": "F:\\github\\MyProject\\MikoBuss\\MikoBussBusinessLayer\\MikoBussBusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikail\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.16\\microsoft.data.sqlite.core.5.0.16.nupkg.sha512",
     "C:\\Users\\mikail\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

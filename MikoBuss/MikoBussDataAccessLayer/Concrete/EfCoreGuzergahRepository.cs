@@ -43,6 +43,7 @@ namespace MikoBussDataAccessLayer.Concrete
                     .Cities
                     .Where(i => i.CityId == Convert.ToInt32(nereye))
                     .Select(i => i.CiytName).FirstOrDefault();
+                var a = context.Guzergahs.Select(i=>i.GuzergahTarihi);
                 var xx = context
                     .Guzergahs
                     .Where(i => i.GuzergahStart == Convert.ToString(neredenn) && i.GuzergahEnd == Convert.ToString(nereyee) && i.GuzergahTarihi==tarih)
