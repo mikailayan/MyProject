@@ -38,15 +38,21 @@ namespace MikoBussDataAccessLayer.Concrete
                 var neredenn = context
                     .Cities
                     .Where(i => i.CityId == Convert.ToInt32(nereden))
-                    .Select(i => i.CiytName).FirstOrDefault();
+                    .Select(i => i.CiytName)
+                    .FirstOrDefault();
                 var nereyee = context
                     .Cities
-                    .Where(i => i.CityId == Convert.ToInt32(nereye))
-                    .Select(i => i.CiytName).FirstOrDefault();
-                var a = context.Guzergahs.Select(i=>i.GuzergahTarihi);
+                    .Where(i => i.CityId == Convert.ToInt32(nereye)) 
+                    .Select(i => i.CiytName)
+                    .FirstOrDefault();
+                var tarihh = context
+                    .Guzergahs
+                    .Where(i => Convert.ToString(i.GuzergahTarihi) == Convert.ToString(tarih)) //Databasede tarihi string olarak al 
+                    .Select(i => Convert.ToString(i.GuzergahTarihi))
+                    .FirstOrDefault();
                 var xx = context
                     .Guzergahs
-                    .Where(i => i.GuzergahStart == Convert.ToString(neredenn) && i.GuzergahEnd == Convert.ToString(nereyee) && i.GuzergahTarihi==tarih)
+                    .Where(i => i.GuzergahStart == Convert.ToString(neredenn) && i.GuzergahEnd == Convert.ToString(nereyee) &&  Convert.ToString(i.GuzergahTarihi)==Convert.ToString(tarihh))
                     .ToList();
                 return xx;
             }
