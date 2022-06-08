@@ -45,14 +45,26 @@ namespace MikoBussDataAccessLayer.Concrete
                     .Where(i => i.CityId == Convert.ToInt32(nereye)) 
                     .Select(i => i.CiytName)
                     .FirstOrDefault();
-                var tarihh = context
-                    .Guzergahs
-                    .Where(i => Convert.ToString(i.GuzergahTarihi) == Convert.ToString(tarih)) //Databasede tarihi string olarak al 
-                    .Select(i => Convert.ToString(i.GuzergahTarihi))
-                    .FirstOrDefault();
+                var a = context.Guzergahs.Select(i => i.GuzergahTarihi).ToList();
+                List<DateTime> secili = new List<DateTime>();
+                List<DateTime> database = new List<DateTime>();
+                database = context.Guzergahs.Select(i => i.GuzergahTarihi).ToList();
+                foreach (var item in a)
+                {
+                    if (item == tarih)
+                    {
+                        Console.WriteLine("girdi");
+                        secili.Add(item);
+                    }
+                    else
+                    {
+                        Console.WriteLine("girmedi");
+                    }
+                }
+               
                 var xx = context
                     .Guzergahs
-                    .Where(i => i.GuzergahStart == Convert.ToString(neredenn) && i.GuzergahEnd == Convert.ToString(nereyee) &&  Convert.ToString(i.GuzergahTarihi)==Convert.ToString(tarihh))
+                    .Where(i => i.GuzergahStart == Convert.ToString(neredenn) && i.GuzergahEnd == Convert.ToString(nereyee) &&  i.GuzergahTarihi ==  secili)
                     .ToList();
                 return xx;
             }
