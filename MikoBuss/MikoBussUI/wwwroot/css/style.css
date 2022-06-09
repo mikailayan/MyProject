@@ -1148,7 +1148,7 @@ ul.top_icon li a {
 }
 .mean-container .mean-nav {
      margin-top: 0px;
-     position: absolute;
+     position: center;
      top: 100%;
 }
 .main-menu ul>li {
@@ -2129,7 +2129,7 @@ label {
 }
 .footer {
      background-color: #022739;
-    
+     margin-top: 90px;
 }
 .footer .Follow {
      margin-bottom: 27px;

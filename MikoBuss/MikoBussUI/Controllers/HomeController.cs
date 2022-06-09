@@ -60,7 +60,7 @@ namespace MikoBussUI.Controllers
                 GuzergahStart = guzergah.GuzergahStart,
                 GuzergahEnd = guzergah.GuzergahEnd,
                 GuzargahFiyat =guzergah.GuzargahFiyat,
-                GuzergahTarihi = guzergah.GuzergahTarihi
+                GuzergahTarihi =guzergah.GuzergahTarihi
             };
             
             return View(sehirGuzergah);

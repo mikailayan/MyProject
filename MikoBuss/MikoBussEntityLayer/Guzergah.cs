@@ -12,7 +12,7 @@ namespace MikoBussEntityLayer
         public int GuzergahId { get; set; }
         public string GuzergahStart { get; set; }
         public string GuzergahEnd { get; set; }
-        public DateTime GuzergahTarihi { get; set; }
+        public string GuzergahTarihi { get; set; }
         public decimal GuzargahFiyat { get; set; }
 
         public List<Ticket> Tickets { get; set; }
