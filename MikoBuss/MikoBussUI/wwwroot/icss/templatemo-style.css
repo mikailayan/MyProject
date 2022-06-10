@@ -437,8 +437,8 @@ label { font-weight: 700; }
 
 footer {
     background: #69c6ba;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
     text-align: center;    
     font-size: 0.8rem;
 }
