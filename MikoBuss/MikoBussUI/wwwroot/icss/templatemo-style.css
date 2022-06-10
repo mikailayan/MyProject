@@ -161,7 +161,7 @@ p:last-child { margin-bottom: 0; }
 select.tm-select.form-control:not([size]):not([multiple]) { height: 45px; }
 .form-control {
     font-size: 0.8rem;
-   
+    padding: .75rem;
 }
 label { font-weight: 700; }
 .tm-search-form {
@@ -435,7 +435,13 @@ label { font-weight: 700; }
 
 .tm-d-table { display: table; }
 
-
+footer {
+    background: #69c6ba;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;    
+    font-size: 0.8rem;
+}
 
 footer a { color: #fff; }
 

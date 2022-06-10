@@ -1,0 +1,12 @@
+F:\github\Lesson\Week_14\MiniShopApp8\MiniShopApp\MiniShopApp.Core\bin\Debug\net5.0\MiniShopApp.Core.deps.json
+F:\github\Lesson\Week_14\MiniShopApp8\MiniShopApp\MiniShopApp.Core\bin\Debug\net5.0\MiniShopApp.Core.dll
+F:\github\Lesson\Week_14\MiniShopApp8\MiniShopApp\MiniShopApp.Core\bin\Debug\net5.0\ref\MiniShopApp.Core.dll
+F:\github\Lesson\Week_14\MiniShopApp8\MiniShopApp\MiniShopApp.Core\bin\Debug\net5.0\MiniShopApp.Core.pdb
+F:\github\Lesson\Week_14\MiniShopApp8\MiniShopApp\MiniShopApp.Core\obj\Debug\net5.0\MiniShopApp.Core.csproj.AssemblyReference.cache
+F:\github\Lesson\Week_14\MiniShopApp8\MiniShopApp\MiniShopApp.Core\obj\Debug\net5.0\MiniShopApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\github\Lesson\Week_14\MiniShopApp8\MiniShopApp\MiniShopApp.Core\obj\Debug\net5.0\MiniShopApp.Core.AssemblyInfoInputs.cache
+F:\github\Lesson\Week_14\MiniShopApp8\MiniShopApp\MiniShopApp.Core\obj\Debug\net5.0\MiniShopApp.Core.AssemblyInfo.cs
+F:\github\Lesson\Week_14\MiniShopApp8\MiniShopApp\MiniShopApp.Core\obj\Debug\net5.0\MiniShopApp.Core.csproj.CoreCompileInputs.cache
+F:\github\Lesson\Week_14\MiniShopApp8\MiniShopApp\MiniShopApp.Core\obj\Debug\net5.0\MiniShopApp.Core.dll
+F:\github\Lesson\Week_14\MiniShopApp8\MiniShopApp\MiniShopApp.Core\obj\Debug\net5.0\ref\MiniShopApp.Core.dll
+F:\github\Lesson\Week_14\MiniShopApp8\MiniShopApp\MiniShopApp.Core\obj\Debug\net5.0\MiniShopApp.Core.pdb

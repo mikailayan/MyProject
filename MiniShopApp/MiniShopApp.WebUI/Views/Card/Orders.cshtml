@@ -1,0 +1,19 @@
+﻿@model List<OrderListModel>
+
+<h6 class="display-4">Orders</h6>
+<hr />  
+@foreach (var order in Model)
+{
+    <table class="table table-sm table-bordered mb-3">
+        <thead>
+            <tr class="table-info">
+                <th colspan="2">Order Number : #@order.OrderNumber</th>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Total</td>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+    </table>
+}
