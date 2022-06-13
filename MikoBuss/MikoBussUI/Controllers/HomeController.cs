@@ -17,13 +17,14 @@ namespace MikoBussUI.Controllers
         private IGuzergahService _guzergahService;
         private ICityService _cityService;
         private ITicketService  _ticketService;
+        private List<int> seats = new List<int>();
+        
 
         public HomeController(ICityService cityService, IGuzergahService guzergahService, ITicketService ticketService)
         {
             _cityService = cityService;
             _guzergahService = guzergahService;
             _ticketService = ticketService;
-
             
         }
         public IActionResult Index()
@@ -33,7 +34,10 @@ namespace MikoBussUI.Controllers
                 Cities = _cityService.GetAll()
             };
             ViewBag.Sehirler = new SelectList(sehirGuzergah.Cities, "CityId", "CiytName");
-            var seats = new List<int>() {1,2,3,4,5};
+            seats.Add(1);
+            seats.Add(2);
+            seats.Add(3);
+
             ViewBag.Seat = new SelectList(seats);
             return View(sehirGuzergah);
 
@@ -41,14 +45,17 @@ namespace MikoBussUI.Controllers
         [HttpPost]
         public IActionResult Index(string nereden, string nereye, DateTime tarih, string SeatNo) //??????*
         {
-           
+            seats.Add(4);
             var sehirler = new SehirGuzergahModel()
             {
                 Cities = _cityService.GetAll(),
                 Guzergahs = _guzergahService.GetBySelectedGuzergahList(nereden,nereye,tarih)
             };
+            seats.Remove(int.Parse(SeatNo));
             ViewBag.Sehirler = new SelectList(sehirler.Cities, "CityId", "CiytName");
             return View(sehirler);
+
+            
         }
     
         public IActionResult BiletAl(int GuzergahId)
