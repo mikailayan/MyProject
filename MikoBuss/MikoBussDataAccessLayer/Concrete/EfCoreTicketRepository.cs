@@ -8,7 +8,17 @@ using System.Threading.Tasks;
 
 namespace MikoBussDataAccessLayer.Concrete
 {
-    public class EfCoreTicketRepository : EfCoreGenericRepository<Ticket, MikoBussContext> , ITicketRepository
+    public class EfCoreTicketRepository : EfCoreGenericRepository<Ticket, MikoBussContext>, ITicketRepository
     {
+        public List<int> FullSeats(int GuzergahId)
+        {
+            using (var context = new MikoBussContext())
+            {
+                return context.Tickets
+                    .Where(i => i.GuzergahId == GuzergahId)
+                    .Select(i => i.TicketSeatNo)
+                    .ToList();
+            }
+        }
     }
 }

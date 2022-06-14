@@ -4679,11 +4679,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\github\\MyProject\\MikoBuss\\MikoBussUI\\MikoBussUI.csproj",
+      "projectUniqueName": "F:\\my_project\\MikoBuss\\MikoBussUI\\MikoBussUI.csproj",
       "projectName": "MikoBussUI",
-      "projectPath": "F:\\github\\MyProject\\MikoBuss\\MikoBussUI\\MikoBussUI.csproj",
+      "projectPath": "F:\\my_project\\MikoBuss\\MikoBussUI\\MikoBussUI.csproj",
       "packagesPath": "C:\\Users\\mikail\\.nuget\\packages\\",
-      "outputPath": "F:\\github\\MyProject\\MikoBuss\\MikoBussUI\\obj\\",
+      "outputPath": "F:\\my_project\\MikoBuss\\MikoBussUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -4706,14 +4706,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\github\\MyProject\\MikoBuss\\MikoBussBusinessLayer\\MikoBussBusinessLayer.csproj": {
-              "projectPath": "F:\\github\\MyProject\\MikoBuss\\MikoBussBusinessLayer\\MikoBussBusinessLayer.csproj"
+            "F:\\my_project\\MikoBuss\\MikoBussBusinessLayer\\MikoBussBusinessLayer.csproj": {
+              "projectPath": "F:\\my_project\\MikoBuss\\MikoBussBusinessLayer\\MikoBussBusinessLayer.csproj"
             },
-            "F:\\github\\MyProject\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj": {
-              "projectPath": "F:\\github\\MyProject\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj"
+            "F:\\my_project\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj": {
+              "projectPath": "F:\\my_project\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj"
             },
-            "F:\\github\\MyProject\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj": {
-              "projectPath": "F:\\github\\MyProject\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj"
+            "F:\\my_project\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj": {
+              "projectPath": "F:\\my_project\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj"
             }
           }
         }

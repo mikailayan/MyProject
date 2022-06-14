@@ -14,5 +14,6 @@ namespace MikoBussBusinessLayer
         void Update(Ticket entity);
         List<Ticket> GetAll();
         Ticket GetById(int id);
+        List<int> FullSeats(int GuzergahId);
     }
 }

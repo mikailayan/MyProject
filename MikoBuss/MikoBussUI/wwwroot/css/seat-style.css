@@ -1,0 +1,58 @@
+﻿.ana {
+	 padding: 15px;
+}
+ .bus {
+	 width: 20%;
+}
+ .bus.seat2-3 .seats .seat:nth-child(2), .bus.seat2-2 .seats .seat:nth-child(2) {
+	 margin-right: 14.2857142857%;
+}
+ .bus.seat3-2 .seats .seat:nth-child(3) {
+	 margin-right: 14.2857142857%;
+}
+ .seats {
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: nowrap;
+	 -ms-flex-pack: center !important;
+	 justify-content: center !important;
+	 margin-bottom: 2px;
+}
+ .seats .seat {
+	 display: flex;
+	 flex: 0 0 14.2857142857%;
+	 padding: 3px;
+	 position: relative;
+}
+ .seats .seat .lbl {
+	 border-radius: 4px;
+	 background: #3783b5;
+	 width: 25px;
+	 height: 25px;
+	 margin-bottom: 0.1rem;
+	 display: inline-block;
+	 font-size: 0.7rem;
+}
+ .seats .seat input[type="radio"] {
+	 display: none !important;
+}
+ .seats .seat input[type="radio"] + .lbl {
+	 border-radius: 4px;
+	 background: #3783b5;
+	 text-align: center;
+	 cursor: pointer;
+	 display: inline-block;
+	 padding: 4px;
+	 color: #fff;
+}
+ .seats .seat input[type="radio"]:checked + .lbl {
+	 background: #46be8a;
+}
+ .seats .seat input[type="radio"]:checked + .lbl:after {
+	 background: none;
+}
+ .seats .seat input[type="radio"]:disabled + .lbl {
+	 cursor: not-allowed;
+	 background: #f73737;
+}
+ 

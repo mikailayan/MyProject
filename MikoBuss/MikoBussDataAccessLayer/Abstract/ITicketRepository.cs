@@ -9,5 +9,7 @@ namespace MikoBussDataAccessLayer.Abstract
 {
     public interface ITicketRepository : IRepository<Ticket>
     {
+        List<int> FullSeats(int GuzergahId);
+
     }
 }

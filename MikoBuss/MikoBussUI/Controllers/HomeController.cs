@@ -16,16 +16,14 @@ namespace MikoBussUI.Controllers
     {
         private IGuzergahService _guzergahService;
         private ICityService _cityService;
-        private ITicketService  _ticketService;
-        private List<int> seats = new List<int>();
-        
+        private ITicketService _ticketService;
+      
 
         public HomeController(ICityService cityService, IGuzergahService guzergahService, ITicketService ticketService)
         {
             _cityService = cityService;
             _guzergahService = guzergahService;
             _ticketService = ticketService;
-            
         }
         public IActionResult Index()
         {
@@ -34,32 +32,33 @@ namespace MikoBussUI.Controllers
                 Cities = _cityService.GetAll()
             };
             ViewBag.Sehirler = new SelectList(sehirGuzergah.Cities, "CityId", "CiytName");
-            seats.Add(1);
-            seats.Add(2);
-            seats.Add(3);
-
-            ViewBag.Seat = new SelectList(seats);
+           
             return View(sehirGuzergah);
 
         }
         [HttpPost]
-        public IActionResult Index(string nereden, string nereye, DateTime tarih, string SeatNo) //??????*
+        public IActionResult Index(string nereden, string nereye, DateTime tarih)
         {
-            seats.Add(4);
+            
             var sehirler = new SehirGuzergahModel()
             {
                 Cities = _cityService.GetAll(),
                 Guzergahs = _guzergahService.GetBySelectedGuzergahList(nereden,nereye,tarih)
             };
-            seats.Remove(int.Parse(SeatNo));
             ViewBag.Sehirler = new SelectList(sehirler.Cities, "CityId", "CiytName");
             return View(sehirler);
 
             
         }
-    
         public IActionResult BiletAl(int GuzergahId)
         {
+            
+            List<int> seats = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            foreach (var seat in _ticketService.FullSeats(GuzergahId))
+            {
+                seats.Remove(seat);
+            }
+            ViewBag.Seat = new SelectList(seats);
             var guzergah = _guzergahService.GetById(GuzergahId);
             SehirGuzergahModel sehirGuzergah = new SehirGuzergahModel()
             {
@@ -68,6 +67,7 @@ namespace MikoBussUI.Controllers
                 GuzergahEnd = guzergah.GuzergahEnd,
                 GuzargahFiyat =guzergah.GuzargahFiyat,
                 GuzergahTarihi =guzergah.GuzergahTarihi
+
             };
             
             return View(sehirGuzergah);
@@ -97,7 +97,9 @@ namespace MikoBussUI.Controllers
             return View();
         }
         
-        
-       
+
+
     }
 }
+
+

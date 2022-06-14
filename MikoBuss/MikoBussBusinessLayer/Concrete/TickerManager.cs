@@ -25,6 +25,11 @@ namespace MikoBussBusinessLayer.Concrete
             _ticketRepository.Delete(entity);
         }
 
+        public List<int> FullSeats(int GuzergahId)
+        {
+            return _ticketRepository.FullSeats(GuzergahId);
+        }
+
         public List<Ticket> GetAll()
         {
             return _ticketRepository.GetAll();

@@ -54,7 +54,7 @@ namespace MikoBussDataAccessLayer.Concrete
             }
         }
 
-        public Guzergah GetGuzergahId(int id)
+        public Guzergah GetGuzergahId(int id) 
         {
             using (var context = new MikoBussContext())
             {
