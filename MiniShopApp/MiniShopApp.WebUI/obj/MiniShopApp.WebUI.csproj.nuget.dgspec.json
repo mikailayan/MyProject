@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.WebUI\\MiniShopApp.WebUI.csproj": {}
+    "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.WebUI\\MiniShopApp.WebUI.csproj": {}
   },
   "projects": {
-    "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj": {
+    "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj",
+        "projectUniqueName": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj",
         "projectName": "MiniShopApp.Business",
-        "projectPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj",
+        "projectPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj",
         "packagesPath": "C:\\Users\\mikail\\.nuget\\packages\\",
-        "outputPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Business\\obj\\",
+        "outputPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,11 +34,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj": {
-                "projectPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj"
+              "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj": {
+                "projectPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj"
               },
-              "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj": {
-                "projectPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj"
+              "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj": {
+                "projectPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj": {
+    "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj",
+        "projectUniqueName": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj",
         "projectName": "MiniShopApp.Core",
-        "projectPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj",
+        "projectPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj",
         "packagesPath": "C:\\Users\\mikail\\.nuget\\packages\\",
-        "outputPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Core\\obj\\",
+        "outputPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -147,14 +147,14 @@
         }
       }
     },
-    "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj": {
+    "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj",
+        "projectUniqueName": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj",
         "projectName": "MiniShopApp.Data",
-        "projectPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj",
+        "projectPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj",
         "packagesPath": "C:\\Users\\mikail\\.nuget\\packages\\",
-        "outputPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Data\\obj\\",
+        "outputPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -177,8 +177,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj": {
-                "projectPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj"
+              "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj": {
+                "projectPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj"
               }
             }
           }
@@ -227,14 +227,14 @@
         }
       }
     },
-    "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj": {
+    "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj",
+        "projectUniqueName": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj",
         "projectName": "MiniShopApp.Entity",
-        "projectPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj",
+        "projectPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj",
         "packagesPath": "C:\\Users\\mikail\\.nuget\\packages\\",
-        "outputPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Entity\\obj\\",
+        "outputPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -287,14 +287,14 @@
         }
       }
     },
-    "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.WebUI\\MiniShopApp.WebUI.csproj": {
+    "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.WebUI\\MiniShopApp.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.WebUI\\MiniShopApp.WebUI.csproj",
+        "projectUniqueName": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.WebUI\\MiniShopApp.WebUI.csproj",
         "projectName": "MiniShopApp.WebUI",
-        "projectPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.WebUI\\MiniShopApp.WebUI.csproj",
+        "projectPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.WebUI\\MiniShopApp.WebUI.csproj",
         "packagesPath": "C:\\Users\\mikail\\.nuget\\packages\\",
-        "outputPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.WebUI\\obj\\",
+        "outputPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.WebUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -317,14 +317,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj": {
-                "projectPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj"
+              "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj": {
+                "projectPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj"
               },
-              "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj": {
-                "projectPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj"
+              "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj": {
+                "projectPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj"
               },
-              "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj": {
-                "projectPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj"
+              "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj": {
+                "projectPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj"
               }
             }
           }

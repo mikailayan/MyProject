@@ -154,11 +154,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj",
+      "projectUniqueName": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj",
       "projectName": "MiniShopApp.Core",
-      "projectPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj",
+      "projectPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Core\\MiniShopApp.Core.csproj",
       "packagesPath": "C:\\Users\\mikail\\.nuget\\packages\\",
-      "outputPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Core\\obj\\",
+      "outputPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

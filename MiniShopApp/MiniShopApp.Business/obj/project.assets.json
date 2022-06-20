@@ -1048,11 +1048,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj",
+      "projectUniqueName": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj",
       "projectName": "MiniShopApp.Business",
-      "projectPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj",
+      "projectPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Business\\MiniShopApp.Business.csproj",
       "packagesPath": "C:\\Users\\mikail\\.nuget\\packages\\",
-      "outputPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Business\\obj\\",
+      "outputPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1075,11 +1075,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj": {
-              "projectPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj"
+            "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj": {
+              "projectPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Data\\MiniShopApp.Data.csproj"
             },
-            "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj": {
-              "projectPath": "F:\\github\\Lesson\\Week_14\\MiniShopApp8\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj"
+            "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj": {
+              "projectPath": "F:\\github\\MyProject\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj"
             }
           }
         }
