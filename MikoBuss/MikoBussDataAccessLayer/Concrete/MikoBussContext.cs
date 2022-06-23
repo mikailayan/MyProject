@@ -14,9 +14,9 @@ namespace MikoBussDataAccessLayer.Concrete
         public DbSet<Guzergah> Guzergahs { get; set; }
         public DbSet<Ticket> Tickets { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlite("Data Source=MikoBussDb");
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlite("Data Source=MikoBussDb");
+        //}
     }
 }
