@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Itnj14LZnxF1eSG9wq2qbbRJ2AZdWRT2zP6+cVltlJUl/qrh2KrrNy2ebfCeVrX/QQ7qJU6M4uIxq7lr58HlpA==",
+  "dgSpecHash": "W4MNdSRwgPMQU04t9GAOVl+D54mB5SNqHi55QfHNrEmAUPd4JZjH9dpsWb5EOXzep1BCwTHCFD1CkTNCfJJfzg==",
   "success": true,
-  "projectFilePath": "F:\\my_project\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj",
+  "projectFilePath": "F:\\github\\MyProject\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikail\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mikail\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

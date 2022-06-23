@@ -980,11 +980,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\my_project\\MikoBuss\\MikoBussBusinessLayer\\MikoBussBusinessLayer.csproj",
+      "projectUniqueName": "F:\\github\\MyProject\\MikoBuss\\MikoBussBusinessLayer\\MikoBussBusinessLayer.csproj",
       "projectName": "MikoBussBusinessLayer",
-      "projectPath": "F:\\my_project\\MikoBuss\\MikoBussBusinessLayer\\MikoBussBusinessLayer.csproj",
+      "projectPath": "F:\\github\\MyProject\\MikoBuss\\MikoBussBusinessLayer\\MikoBussBusinessLayer.csproj",
       "packagesPath": "C:\\Users\\mikail\\.nuget\\packages\\",
-      "outputPath": "F:\\my_project\\MikoBuss\\MikoBussBusinessLayer\\obj\\",
+      "outputPath": "F:\\github\\MyProject\\MikoBuss\\MikoBussBusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1007,11 +1007,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\my_project\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj": {
-              "projectPath": "F:\\my_project\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj"
+            "F:\\github\\MyProject\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj": {
+              "projectPath": "F:\\github\\MyProject\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj"
             },
-            "F:\\my_project\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj": {
-              "projectPath": "F:\\my_project\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj"
+            "F:\\github\\MyProject\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj": {
+              "projectPath": "F:\\github\\MyProject\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj"
             }
           }
         }
@@ -1040,7 +1040,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

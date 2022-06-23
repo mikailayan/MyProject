@@ -38,7 +38,6 @@ F:\github\MyProject\MikoBuss\MikoBussDataAccessLayer\bin\Debug\net5.0\MikoBussDa
 F:\github\MyProject\MikoBuss\MikoBussDataAccessLayer\bin\Debug\net5.0\MikoBussDataAccessLayer.runtimeconfig.json
 F:\github\MyProject\MikoBuss\MikoBussDataAccessLayer\bin\Debug\net5.0\MikoBussDataAccessLayer.runtimeconfig.dev.json
 F:\github\MyProject\MikoBuss\MikoBussDataAccessLayer\bin\Debug\net5.0\MikoBussDataAccessLayer.dll
-F:\github\MyProject\MikoBuss\MikoBussDataAccessLayer\bin\Debug\net5.0\ref\MikoBussDataAccessLayer.dll
 F:\github\MyProject\MikoBuss\MikoBussDataAccessLayer\bin\Debug\net5.0\MikoBussDataAccessLayer.pdb
 F:\github\MyProject\MikoBuss\MikoBussDataAccessLayer\bin\Debug\net5.0\MikoBussEntityLayer.dll
 F:\github\MyProject\MikoBuss\MikoBussDataAccessLayer\bin\Debug\net5.0\MikoBussEntityLayer.pdb
@@ -70,3 +69,4 @@ F:\my_project\MikoBuss\MikoBussDataAccessLayer\obj\Debug\net5.0\MikoBussDataAcce
 F:\my_project\MikoBuss\MikoBussDataAccessLayer\obj\Debug\net5.0\ref\MikoBussDataAccessLayer.dll
 F:\my_project\MikoBuss\MikoBussDataAccessLayer\obj\Debug\net5.0\MikoBussDataAccessLayer.pdb
 F:\my_project\MikoBuss\MikoBussDataAccessLayer\obj\Debug\net5.0\MikoBussDataAccessLayer.genruntimeconfig.cache
+F:\github\MyProject\MikoBuss\MikoBussDataAccessLayer\obj\Debug\net5.0\refint\MikoBussDataAccessLayer.dll

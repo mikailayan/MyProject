@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\my_project\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj": {}
+    "F:\\github\\MyProject\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj": {}
   },
   "projects": {
-    "F:\\my_project\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj": {
+    "F:\\github\\MyProject\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\my_project\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj",
+        "projectUniqueName": "F:\\github\\MyProject\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj",
         "projectName": "MikoBussDataAccessLayer",
-        "projectPath": "F:\\my_project\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj",
+        "projectPath": "F:\\github\\MyProject\\MikoBuss\\MikoBussDataAccessLayer\\MikoBussDataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\mikail\\.nuget\\packages\\",
-        "outputPath": "F:\\my_project\\MikoBuss\\MikoBussDataAccessLayer\\obj\\",
+        "outputPath": "F:\\github\\MyProject\\MikoBuss\\MikoBussDataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\my_project\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj": {
-                "projectPath": "F:\\my_project\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj"
+              "F:\\github\\MyProject\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj": {
+                "projectPath": "F:\\github\\MyProject\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj"
               }
             }
           }
@@ -80,18 +80,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\my_project\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj": {
+    "F:\\github\\MyProject\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\my_project\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj",
+        "projectUniqueName": "F:\\github\\MyProject\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj",
         "projectName": "MikoBussEntityLayer",
-        "projectPath": "F:\\my_project\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj",
+        "projectPath": "F:\\github\\MyProject\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj",
         "packagesPath": "C:\\Users\\mikail\\.nuget\\packages\\",
-        "outputPath": "F:\\my_project\\MikoBuss\\MikoBussEntityLayer\\obj\\",
+        "outputPath": "F:\\github\\MyProject\\MikoBuss\\MikoBussEntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -140,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

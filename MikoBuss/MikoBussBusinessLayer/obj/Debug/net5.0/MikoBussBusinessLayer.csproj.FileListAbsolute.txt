@@ -34,7 +34,6 @@ C:\Users\mikail\Desktop\MikoBuss\MikoBussBusinessLayer\obj\Debug\net5.0\ref\Miko
 C:\Users\mikail\Desktop\MikoBuss\MikoBussBusinessLayer\obj\Debug\net5.0\MikoBussBusinessLayer.pdb
 F:\github\MyProject\MikoBuss\MikoBussBusinessLayer\bin\Debug\net5.0\MikoBussBusinessLayer.deps.json
 F:\github\MyProject\MikoBuss\MikoBussBusinessLayer\bin\Debug\net5.0\MikoBussBusinessLayer.dll
-F:\github\MyProject\MikoBuss\MikoBussBusinessLayer\bin\Debug\net5.0\ref\MikoBussBusinessLayer.dll
 F:\github\MyProject\MikoBuss\MikoBussBusinessLayer\bin\Debug\net5.0\MikoBussBusinessLayer.pdb
 F:\github\MyProject\MikoBuss\MikoBussBusinessLayer\bin\Debug\net5.0\MikoBussDataAccessLayer.dll
 F:\github\MyProject\MikoBuss\MikoBussBusinessLayer\bin\Debug\net5.0\MikoBussEntityLayer.dll
@@ -66,3 +65,4 @@ F:\my_project\MikoBuss\MikoBussBusinessLayer\obj\Debug\net5.0\MikoBussBusinessLa
 F:\my_project\MikoBuss\MikoBussBusinessLayer\obj\Debug\net5.0\MikoBussBusinessLayer.dll
 F:\my_project\MikoBuss\MikoBussBusinessLayer\obj\Debug\net5.0\ref\MikoBussBusinessLayer.dll
 F:\my_project\MikoBuss\MikoBussBusinessLayer\obj\Debug\net5.0\MikoBussBusinessLayer.pdb
+F:\github\MyProject\MikoBuss\MikoBussBusinessLayer\obj\Debug\net5.0\refint\MikoBussBusinessLayer.dll

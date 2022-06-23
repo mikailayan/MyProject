@@ -347,7 +347,6 @@ F:\github\MyProject\MikoBuss\MikoBussUI\bin\Debug\net5.0\MikoBussUI.deps.json
 F:\github\MyProject\MikoBuss\MikoBussUI\bin\Debug\net5.0\MikoBussUI.runtimeconfig.json
 F:\github\MyProject\MikoBuss\MikoBussUI\bin\Debug\net5.0\MikoBussUI.runtimeconfig.dev.json
 F:\github\MyProject\MikoBuss\MikoBussUI\bin\Debug\net5.0\MikoBussUI.dll
-F:\github\MyProject\MikoBuss\MikoBussUI\bin\Debug\net5.0\ref\MikoBussUI.dll
 F:\github\MyProject\MikoBuss\MikoBussUI\bin\Debug\net5.0\MikoBussUI.pdb
 F:\github\MyProject\MikoBuss\MikoBussUI\bin\Debug\net5.0\MikoBussUI.Views.dll
 F:\github\MyProject\MikoBuss\MikoBussUI\bin\Debug\net5.0\MikoBussUI.Views.pdb
@@ -474,7 +473,6 @@ F:\github\MyProject\MikoBuss\MikoBussUI\obj\Debug\net5.0\MikoBussUI.MvcApplicati
 F:\github\MyProject\MikoBuss\MikoBussUI\obj\Debug\net5.0\MikoBussUI.RazorAssemblyInfo.cache
 F:\github\MyProject\MikoBuss\MikoBussUI\obj\Debug\net5.0\MikoBussUI.RazorAssemblyInfo.cs
 F:\github\MyProject\MikoBuss\MikoBussUI\obj\Debug\net5.0\staticwebassets\MikoBussUI.StaticWebAssets.Manifest.cache
-F:\github\MyProject\MikoBuss\MikoBussUI\obj\Debug\net5.0\staticwebassets\MikoBussUI.StaticWebAssets.xml
 F:\github\MyProject\MikoBuss\MikoBussUI\obj\Debug\net5.0\scopedcss\bundle\MikoBussUI.styles.css
 F:\github\MyProject\MikoBuss\MikoBussUI\obj\Debug\net5.0\MikoBussUI.TagHelpers.input.cache
 F:\github\MyProject\MikoBuss\MikoBussUI\obj\Debug\net5.0\MikoBussUI.TagHelpers.output.cache
@@ -683,3 +681,5 @@ F:\my_project\MikoBuss\MikoBussUI\obj\Debug\net5.0\ref\MikoBussUI.dll
 F:\my_project\MikoBuss\MikoBussUI\obj\Debug\net5.0\MikoBussUI.pdb
 F:\my_project\MikoBuss\MikoBussUI\obj\Debug\net5.0\MikoBussUI.genruntimeconfig.cache
 F:\my_project\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Shared\Components\Seats\Default.cshtml.g.cs
+F:\github\MyProject\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Shared\Components\Seats\Default.cshtml.g.cs
+F:\github\MyProject\MikoBuss\MikoBussUI\obj\Debug\net5.0\refint\MikoBussUI.dll

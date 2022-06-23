@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dBHxwMgCoBmVHRzRoGbp9foz5vZ0sEfDPRTKc3uAz5gmV/rvQSPzz/4KDT9sXaUrG8G4pWrjumK3RAt/qX5Odg==",
+  "dgSpecHash": "TIQzzx6aLM3G5zIuZLDn8fjRH4XFS6xwWeuHr3dIOHXgCYvIL08u/NGZwAASY/7BV5YFdgHyS1WfjlJ0yglKGA==",
   "success": true,
-  "projectFilePath": "F:\\my_project\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj",
+  "projectFilePath": "F:\\github\\MyProject\\MikoBuss\\MikoBussEntityLayer\\MikoBussEntityLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
